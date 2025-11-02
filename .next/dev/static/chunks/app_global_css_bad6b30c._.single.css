@@ -1,0 +1,159 @@
+/* [project]/app/global.css [app-client] (css) */
+@custom-variant dark (& :is(. dark * ));
+
+:root {
+  --background: #fcfcfc;
+  --foreground: #0b0b0b;
+  --card: #fff;
+  --card-foreground: #0b0b0b;
+  --popover: #fff;
+  --popover-foreground: #0b0b0b;
+  --primary: #222;
+  --primary-foreground: #fcfcfc;
+  --secondary: #f2f2f2;
+  --secondary-foreground: #222;
+  --muted: #f2f2f2;
+  --muted-foreground: #717171;
+  --accent: #f2f2f2;
+  --accent-foreground: #222;
+  --destructive: #d40924;
+  --destructive-foreground: #fcfcfc;
+  --border: #dedede;
+  --input: #dedede;
+  --ring: #222;
+  --chart-1: #0f74c5;
+  --chart-2: #00a992;
+  --chart-3: #75b168;
+  --chart-4: #b24dc8;
+  --chart-5: #dfa11a;
+  --radius: .75rem;
+  --sidebar: #fcfcfc;
+  --sidebar-foreground: #0b0b0b;
+  --sidebar-primary: #222;
+  --sidebar-primary-foreground: #fcfcfc;
+  --sidebar-accent: #f2f2f2;
+  --sidebar-accent-foreground: #222;
+  --sidebar-border: #dedede;
+  --sidebar-ring: #222;
+}
+
+@supports (color: lab(0% 0 0)) {
+  :root {
+    --background: lab(98.84% 0 0);
+    --foreground: lab(3.04863% 0 0);
+    --card: lab(100% 0 0);
+    --card-foreground: lab(3.04863% 0 0);
+    --popover: lab(100% 0 0);
+    --popover-foreground: lab(3.04863% 0 0);
+    --primary: lab(13% 0 0);
+    --primary-foreground: lab(98.84% 0 0);
+    --secondary: lab(95.36% .0000596046 0);
+    --secondary-foreground: lab(13% 0 0);
+    --muted: lab(95.36% .0000596046 0);
+    --muted-foreground: lab(47.8% 0 .0000119209);
+    --accent: lab(95.36% .0000596046 0);
+    --accent-foreground: lab(13% 0 0);
+    --destructive: lab(45.5382% 69.8881 46.2994);
+    --destructive-foreground: lab(98.84% 0 0);
+    --border: lab(88.4% 0 .0000119209);
+    --input: lab(88.4% 0 .0000119209);
+    --ring: lab(13% 0 0);
+    --chart-1: lab(47.0007% -3.24476 -50.2754);
+    --chart-2: lab(61.6572% -64.7817 -.399113);
+    --chart-3: lab(66.6231% -30.8945 30.9358);
+    --chart-4: lab(50.4285% 54.7595 -46.1247);
+    --chart-5: lab(71.006% 16.0769 70.1908);
+    --sidebar: lab(98.84% 0 0);
+    --sidebar-foreground: lab(3.04863% 0 0);
+    --sidebar-primary: lab(13% 0 0);
+    --sidebar-primary-foreground: lab(98.84% 0 0);
+    --sidebar-accent: lab(95.36% .0000596046 0);
+    --sidebar-accent-foreground: lab(13% 0 0);
+    --sidebar-border: lab(88.4% 0 .0000119209);
+    --sidebar-ring: lab(13% 0 0);
+  }
+}
+
+.dark {
+  --background: #060606;
+  --foreground: #f8f8f8;
+  --card: #0b0b0b;
+  --card-foreground: #f8f8f8;
+  --popover: #0b0b0b;
+  --popover-foreground: #f8f8f8;
+  --primary: #f8f8f8;
+  --primary-foreground: #0b0b0b;
+  --secondary: #1b1b1b;
+  --secondary-foreground: #f8f8f8;
+  --muted: #1b1b1b;
+  --muted-foreground: #8f8f8f;
+  --accent: #1b1b1b;
+  --accent-foreground: #f8f8f8;
+  --destructive: #a20519;
+  --destructive-foreground: #f8f8f8;
+  --border: #1b1b1b;
+  --input: #1b1b1b;
+  --ring: #8f8f8f;
+  --chart-1: #0f74c5;
+  --chart-2: #00a992;
+  --chart-3: #75b168;
+  --chart-4: #b24dc8;
+  --chart-5: #dfa11a;
+  --sidebar: #0b0b0b;
+  --sidebar-foreground: #f8f8f8;
+  --sidebar-primary: #0f74c5;
+  --sidebar-primary-foreground: #f8f8f8;
+  --sidebar-accent: #1b1b1b;
+  --sidebar-accent-foreground: #f8f8f8;
+  --sidebar-border: #1b1b1b;
+  --sidebar-ring: #8f8f8f;
+}
+
+@supports (color: lab(0% 0 0)) {
+  .dark {
+    --background: lab(1.5609% 0 0);
+    --foreground: lab(97.68% -.0000298023 .0000119209);
+    --card: lab(3.04863% 0 0);
+    --card-foreground: lab(97.68% -.0000298023 .0000119209);
+    --popover: lab(3.04863% 0 0);
+    --popover-foreground: lab(97.68% -.0000298023 .0000119209);
+    --primary: lab(97.68% -.0000298023 .0000119209);
+    --primary-foreground: lab(3.04863% 0 0);
+    --secondary: lab(9.52% 0 0);
+    --secondary-foreground: lab(97.68% -.0000298023 .0000119209);
+    --muted: lab(9.52% 0 0);
+    --muted-foreground: lab(59.4% 0 0);
+    --accent: lab(9.52% 0 0);
+    --accent-foreground: lab(97.68% -.0000298023 .0000119209);
+    --destructive: lab(34.3495% 57.1812 37.8813);
+    --destructive-foreground: lab(97.68% -.0000298023 .0000119209);
+    --border: lab(9.52% 0 0);
+    --input: lab(9.52% 0 0);
+    --ring: lab(59.4% 0 0);
+    --chart-1: lab(47.0007% -3.24476 -50.2754);
+    --chart-2: lab(61.6572% -64.7817 -.399113);
+    --chart-3: lab(66.6231% -30.8945 30.9358);
+    --chart-4: lab(50.4285% 54.7595 -46.1247);
+    --chart-5: lab(71.006% 16.0769 70.1908);
+    --sidebar: lab(3.04863% 0 0);
+    --sidebar-foreground: lab(97.68% -.0000298023 .0000119209);
+    --sidebar-primary: lab(47.0007% -3.24476 -50.2754);
+    --sidebar-primary-foreground: lab(97.68% -.0000298023 .0000119209);
+    --sidebar-accent: lab(9.52% 0 0);
+    --sidebar-accent-foreground: lab(97.68% -.0000298023 .0000119209);
+    --sidebar-border: lab(9.52% 0 0);
+    --sidebar-ring: lab(59.4% 0 0);
+  }
+}
+
+@theme inline {
+  --font-sans: "Geist", "Geist Fallback"; --font-mono: "Geist Mono", "Geist Mono Fallback"; --color-background: var(--background) ; --color-foreground: var(--foreground) ; --color-card: var(--card) ; --color-card-foreground: var(--card-foreground) ; --color-popover: var(--popover) ; --color-popover-foreground: var(--popover-foreground) ; --color-primary: var(--primary) ; --color-primary-foreground: var(--primary-foreground) ; --color-secondary: var(--secondary) ; --color-secondary-foreground: var(--secondary-foreground) ; --color-muted: var(--muted) ; --color-muted-foreground: var(--muted-foreground) ; --color-accent: var(--accent) ; --color-accent-foreground: var(--accent-foreground) ; --color-destructive: var(--destructive) ; --color-destructive-foreground: var(--destructive-foreground) ; --color-border: var(--border) ; --color-input: var(--input) ; --color-ring: var(--ring) ; --color-chart-1: var(--chart-1) ; --color-chart-2: var(--chart-2) ; --color-chart-3: var(--chart-3) ; --color-chart-4: var(--chart-4) ; --color-chart-5: var(--chart-5) ; --radius-sm: calc(var(--radius)  - 4px) ; --radius-md: calc(var(--radius)  - 2px) ; --radius-lg: var(--radius) ; --radius-xl: calc(var(--radius)  + 4px) ; --color-sidebar: var(--sidebar) ; --color-sidebar-foreground: var(--sidebar-foreground) ; --color-sidebar-primary: var(--sidebar-primary) ; --color-sidebar-primary-foreground: var(--sidebar-primary-foreground) ; --color-sidebar-accent: var(--sidebar-accent) ; --color-sidebar-accent-foreground: var(--sidebar-accent-foreground) ; --color-sidebar-border: var(--sidebar-border) ; --color-sidebar-ring: var(--sidebar-ring) ;
+}
+
+@layer base {
+  @apply border-border outline-ring / 50;
+
+  @apply bg-background text-foreground;
+}
+
+/*# sourceMappingURL=app_global_css_bad6b30c._.single.css.map*/
