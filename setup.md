@@ -611,3 +611,26 @@ Python 3.10.0
  GET / 200 in 5.8s (compile: 5.4s, render: 379ms)
  GET / 200 in 144ms (compile: 10ms, render: 134ms)
  GET / 200 in 139ms (compile: 8ms, render: 131ms)
+
+
+
+ (.venv) PS C:\Users\Raj\OneDrive\Desktop\Developer\CARMY_AI_FILES_Internship_2025\Speech_to_text_Transcribe_Attempt_5\backend> python server.py
+Starting FastAPI server on http://localhost:8000
+WebSocket endpoint: ws://localhost:8000/ws
+INFO:     Started server process [14000]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+
+PS C:\Users\Raj\OneDrive\Desktop\Developer\CARMY_AI_FILES_Internship_2025\Speech_to_text_Transcribe_Attempt_5> npm run dev
+
+> my-v0-project@0.1.0 dev
+> next dev
+
+   ▲ Next.js 16.0.0 (Turbopack)
+   - Local:        http://localhost:3000   
+   - Network:      http://192.168.1.63:3000
+
+ ✓ Starting...
+ ✓ Ready in 3s
+
